@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>聯絡我 - 我的網站</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background: #e6ffe6; }
+    nav { background: #333; padding: 10px; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; }
+    nav a:hover { text-decoration: underline; }
+    header { padding: 60px 20px; }
+    form { margin: 20px auto; max-width: 400px; text-align: left; }
+    input, textarea { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #333; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #555; }
+    footer { margin-top: 40px; padding: 20px; background: #eee; color: #666; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">首頁</a>
+    <a href="about.html">關於我</a>
+    <a href="contact.html">聯絡我</a>
+  </nav>
+
+  <header>
+    <h1>聯絡我</h1>
+    <p>歡迎透過表單聯絡我！</p>
+    <form>
+      <label>姓名：</label>
+      <input type="text" name="name" placeholder="輸入你的名字">
+      <label>Email：</label>
+      <input type="email" name="email" placeholder="輸入你的 Email">
+      <label>訊息：</label>
+      <textarea name="message" rows="5" placeholder="輸入你的訊息"></textarea>
+      <button type="submit">送出</button>
+    </form>
+  </header>
+
+  <footer>
+    <p>© 2025 我的網站</p>
+  </footer>
+</body>
+</html>
